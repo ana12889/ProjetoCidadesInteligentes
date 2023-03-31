@@ -1,0 +1,129 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.corpo {
+	background-color: #121212;
+	color: white;
+}
+
+.m1 {
+	background-color: #0014CC;
+	border-radius: 20px;
+}
+
+.main2 {
+	background-color: #0014CC;
+	border-radius: 20px;
+}
+
+.tituloProjeto {
+	margin-top: 10rem;
+	margin-bottom: 9rem;
+}
+
+.justificado {
+	text-align: justify;
+}
+
+li {
+	margin: 1rem 0 1rem;
+}
+
+.espacoSuperior {
+	margin-top: 9rem;
+}
+
+.título {
+	text-align: center;
+	background-color: #121212;
+	color: aliceblue;
+}
+
+#menu {
+	padding-right: 37px;
+	list-style: none;
+}
+
+#menu ul li {
+	list-style: none;
+}
+#menu ul li a {
+	color: black;
+	font-size: 25px;
+	transition: .3s;
+	text-decoration: none;
+	padding: 20px;
+}
+#menu ul li a:hover{
+	opacity: 50%;
+	color: #0014CC;
+	
+}
+/*Título */
+
+.imagem {
+	display: flex;
+	margin-left: 40px;
+	padding-top: 80px;
+}
+
+.imagem h2 {
+	padding-left: 40px;
+}
+.rodape a {
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: #002BFF;
+	transition: 1s;
+}
+
+.rodape{
+	border-radius: 20px;
+}
+
+.imagemFooter{
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.contato {
+	margin-left: 600px;
+	margin-top: -38px;
+	list-style: none;
+}
+
+.zoom {
+	margin-left: 40rem;
+	margin-top: -30px;
+}
+
+.final {
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.ajuda {
+	margin-left: 40px;
+}
+.flex{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.img1{
+	padding: 20px;
+	gap: 15px;
+}
+.rua1{
+	width: 700px;
+	height: 400px;
+}
+.pavAutos{
+	gap: 15px;
+}
